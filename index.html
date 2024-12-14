@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Бюджетный Ведьмич</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <img src="Ведьмич лого.jpg">
+    <audio controls autoplay>
+        <source src="Soundtrack Ведьмич.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+  <div class="start-screen">
+      <button id="start-button">Нажмите, чтобы начать новую игру Ведьмич</button>
+  </div>
+  <div id="display-container">
+    <div class="header">
+      <div class="number-of-count">
+        <span class="number-of-question">1 of 9 questions</span>
+      </div>
+      <div class="timer-div">
+        <span class="time-left">50s</span>
+      </div>
+    </div>
+    <div id="container">
+      <!-- questions and options will be displayed here -->
+    </div>
+    <button id="next-button">Пошла Плотва</button>
+  </div>
+  <div class="score-container hide">
+    <div id="user-score">Demo Score</div>
+    <button id="restart">Вы умерли от кринжа! Нажмите, чтобы начать новую игру Ведьмич</button>
+  </div>
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
